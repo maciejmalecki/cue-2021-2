@@ -6,6 +6,7 @@ retroProject {
     dialect = "KickAssembler"
     dialectVersion = "5.23"
     libDirs = [".ra/deps/c64lib"]
+    excludes = ["**-meta.asm"]
 
     libFromGitHub("c64lib/common", "0.3.0")
     libFromGitHub("c64lib/chipset", "0.3.0")
